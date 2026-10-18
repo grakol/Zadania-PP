@@ -1,0 +1,14 @@
+C:\Users\s37359\Desktop\Podstawy Programowania zadania\ZadaniaPP\bin\Debug\net10.0\ZadaniaPP.exe
+C:\Users\s37359\Desktop\Podstawy Programowania zadania\ZadaniaPP\bin\Debug\net10.0\ZadaniaPP.deps.json
+C:\Users\s37359\Desktop\Podstawy Programowania zadania\ZadaniaPP\bin\Debug\net10.0\ZadaniaPP.runtimeconfig.json
+C:\Users\s37359\Desktop\Podstawy Programowania zadania\ZadaniaPP\bin\Debug\net10.0\ZadaniaPP.dll
+C:\Users\s37359\Desktop\Podstawy Programowania zadania\ZadaniaPP\bin\Debug\net10.0\ZadaniaPP.pdb
+C:\Users\s37359\Desktop\Podstawy Programowania zadania\ZadaniaPP\obj\Debug\net10.0\ZadaniaPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s37359\Desktop\Podstawy Programowania zadania\ZadaniaPP\obj\Debug\net10.0\ZadaniaPP.AssemblyInfoInputs.cache
+C:\Users\s37359\Desktop\Podstawy Programowania zadania\ZadaniaPP\obj\Debug\net10.0\ZadaniaPP.AssemblyInfo.cs
+C:\Users\s37359\Desktop\Podstawy Programowania zadania\ZadaniaPP\obj\Debug\net10.0\ZadaniaPP.csproj.CoreCompileInputs.cache
+C:\Users\s37359\Desktop\Podstawy Programowania zadania\ZadaniaPP\obj\Debug\net10.0\ZadaniaPP.dll
+C:\Users\s37359\Desktop\Podstawy Programowania zadania\ZadaniaPP\obj\Debug\net10.0\refint\ZadaniaPP.dll
+C:\Users\s37359\Desktop\Podstawy Programowania zadania\ZadaniaPP\obj\Debug\net10.0\ZadaniaPP.pdb
+C:\Users\s37359\Desktop\Podstawy Programowania zadania\ZadaniaPP\obj\Debug\net10.0\ZadaniaPP.genruntimeconfig.cache
+C:\Users\s37359\Desktop\Podstawy Programowania zadania\ZadaniaPP\obj\Debug\net10.0\ref\ZadaniaPP.dll
