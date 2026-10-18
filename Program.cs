@@ -1,34 +1,37 @@
-﻿string imie = "adam";
-int poziom = 91;
-bool mapa = true;
+﻿int pktdoswiadczenia = 50;
 int ilosczlota = 8;
-double waga = 92;
-char symbol = '#';
+int treningi = 0;
 
-Console.WriteLine("=== EKWIPUNEK ===");
-Console.WriteLine($"Imię (string): {imie}");
-Console.WriteLine($"Symbol (char): {symbol}");
-Console.WriteLine($"Poziom (int): {poziom}");
-Console.WriteLine($"Złoto (int): {ilosczlota}");
-Console.WriteLine($"Waga (double): {waga}");
-Console.WriteLine($"Ma mapę (bool): {mapa}");
+Console.WriteLine("=== Przed treningiem na arenie ===");
+Console.WriteLine($"Punkty Doświadczenia: {pktdoswiadczenia}");
+Console.WriteLine($"Złoto: {ilosczlota}");
+Console.WriteLine($"Treningi: {treningi}");
 Console.WriteLine("");
 
-string imie2 = "adam";
-int poziom2 = 93;
-bool mapa2 = true;
-int ilosczlota2 = 12;
-double waga2 = 92;
-char symbol2 = '#';
 
-Console.WriteLine("=== EKWIPUNEK ===");
-Console.WriteLine($"Imię (string): {imie2}");
-Console.WriteLine($"Symbol (char): {symbol2}");
-Console.WriteLine($"Poziom (int): {poziom2}");
-Console.WriteLine($"Złoto (int): {ilosczlota2}");
-Console.WriteLine($"Waga (double): {waga2}");
-Console.WriteLine($"Ma mapę (bool): {mapa2}");
+
+pktdoswiadczenia += 25;
+
+
+Console.WriteLine("=== Po treningu na arenie ===");
+Console.WriteLine($"Punkty Doświadczenia: {pktdoswiadczenia}");
+Console.WriteLine($"Złoto: {ilosczlota}");
+Console.WriteLine($"Treningi: {treningi}");
 Console.WriteLine("");
+
+pktdoswiadczenia *= 2;
+ilosczlota -= 8;
+treningi += 1;
+
+Console.WriteLine("=== Po treningu na arenie ===");
+Console.WriteLine($"Punkty Doświadczenia: {pktdoswiadczenia}");
+Console.WriteLine($"Złoto: {ilosczlota}");
+Console.WriteLine($"Treningi: {treningi}");
+Console.WriteLine("");
+
+
+
+
 
 
 
