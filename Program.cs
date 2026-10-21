@@ -1,13 +1,22 @@
-﻿Console.WriteLine("Podaj liczbę:");
-int liczba = int.Parse(Console.ReadLine());
-if (liczba % 2 == 0)
+﻿Console.WriteLine("Podaj Kierunek geograficzny:");
+string kierunek = Console.ReadLine();
+
+switch (kierunek)
 {
-    Console.WriteLine("Liczba jest parzysta.");
+    case "północ":
+         Console.WriteLine("Wyruszasz w stronę gór");
+         break;
+    case "południe":
+            Console.WriteLine("Wyruszasz w stronę pustyni");
+            break;
+    case "wschód":
+            Console.WriteLine("wyruszasz w stronę lasu");
+            break;
+    case "zachód":
+            Console.WriteLine("Wyruszasz w stronę morza");
+            break;  
 }
-else
-{
-    Console.WriteLine("Liczba jest nieparzysta.");
-}
+
 
 
 
