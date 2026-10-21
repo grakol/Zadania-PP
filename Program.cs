@@ -1,21 +1,29 @@
-﻿Console.WriteLine("Podaj Kierunek geograficzny:");
-string kierunek = Console.ReadLine();
+﻿Console.Write("Podaj swój wiek: ");
+int wiek = int.Parse(Console.ReadLine());
 
-switch (kierunek)
+if (wiek < 0)
 {
-    case "północ":
-         Console.WriteLine("Wyruszasz w stronę gór");
-         break;
-    case "południe":
-            Console.WriteLine("Wyruszasz w stronę pustyni");
-            break;
-    case "wschód":
-            Console.WriteLine("wyruszasz w stronę lasu");
-            break;
-    case "zachód":
-            Console.WriteLine("Wyruszasz w stronę morza");
-            break;  
+    Console.WriteLine("Niepoprawny wiek.");
 }
+else if (wiek < 13)
+{
+    Console.WriteLine("Dziecko");
+}
+else if (wiek < 18)
+{
+    Console.WriteLine("Nastolatek");
+}
+else if (wiek < 65)
+{
+    Console.WriteLine("Dorosły");
+}
+else if (wiek >= 65)
+{
+    Console.WriteLine("Senior");
+}
+
+
+
 
 
 
