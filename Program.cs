@@ -1,26 +1,24 @@
-﻿Console.Write("Podaj swój wiek: ");
-int wiek = int.Parse(Console.ReadLine());
+﻿Console.Write("Podaj liczbę punktów życia: ");
+int punktyżycia = int.Parse(Console.ReadLine());
+Console.Write("Czy masz klucz?: ");
+bool maszklucz = bool.Parse(Console.ReadLine());
+Console.Write("Czy znasz hasło?: ");
+bool znashaslo = bool.Parse(Console.ReadLine());
 
-if (wiek < 0)
+if (punktyżycia <= 0)
 {
-    Console.WriteLine("Niepoprawny wiek.");
+    Console.WriteLine("Nie żyjesz");
 }
-else if (wiek < 13)
+    else if (punktyżycia > 0 && maszklucz || znashaslo)
+{    
+     Console.WriteLine("Możesz wejść do lochu");
+}
+else
 {
-    Console.WriteLine("Dziecko");
+    Console.WriteLine("Nie możesz wejść do Lochu (nie ma sposobu otwarcia drzwi)");
+    
 }
-else if (wiek < 18)
-{
-    Console.WriteLine("Nastolatek");
-}
-else if (wiek < 65)
-{
-    Console.WriteLine("Dorosły");
-}
-else if (wiek >= 65)
-{
-    Console.WriteLine("Senior");
-}
+
 
 
 
